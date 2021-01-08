@@ -40,6 +40,10 @@ public class InternetBot {
 }
 
 /*Sources
-Example Google Search code:                             https://stackoverflow.com/questions/4640972/how-to-have-java-application-interact-with-a-website
+Example Google Search code:                                     https://stackoverflow.com/questions/4640972/how-to-have-java-application-interact-with-a-website
+Chrome WebDriver:                                               https://chromedriver.chromium.org/downloads
+Selenium Library:                                               https://www.selenium.dev/downloads/
+Eclipse Library Implementation Tutorial:                        https://www.guru99.com/installing-selenium-webdriver.html
+Finally getting the Selenium library implemented:               https://stackoverflow.com/questions/65620920/how-to-install-selenium-selenium-java-3-141-59-library-on-eclipse-or-netbeans
 
 */
