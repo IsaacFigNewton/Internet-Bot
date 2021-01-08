@@ -1,10 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package internet.bot;
-package selenium-java-3.141.59.*;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 /**
  *
@@ -17,7 +16,7 @@ public class InternetBot {
      */
     public static void main(String[] args) {
         //for the web driver
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Owner\\Documents\\GitHub\\Internet-Bot\\Internet Bot\\src\\selenium-java-3.141.59\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Owner\\Documents\\GitHub\\Internet-Bot\\Internet Bot\\src\\chromedriver_win32\\chromedriver 87.0.4280.88.exe");
         // Create a new instance of the html unit driver
         // Notice that the remainder of the code relies on the interface, 
         // not the implementation.
@@ -38,11 +37,9 @@ public class InternetBot {
         // Check the title of the page
         System.out.println("Page title is: " + driver.getTitle());
     }
-    
 }
 
 /*Sources
 Example Google Search code:                             https://stackoverflow.com/questions/4640972/how-to-have-java-application-interact-with-a-website
-Bodged SUPPORTS_FINDING_BY_CSS constant:                https://api.flutter.dev/flutter/webdriver.sync_io/Capabilities/supportsFindingByCss-constant.html
 
 */
